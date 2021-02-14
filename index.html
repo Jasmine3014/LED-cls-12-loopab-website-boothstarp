@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="shortcut icon" href="images/favicon.jpg">
     <link rel="stylesheet" href="css/style.css">
     <title>LoopLAB website</title>
@@ -13,12 +15,13 @@
 <nav class="navbar navbar-expand-md navbar-dark fixed-top">
     <div class="container">
         <a class="navbar-brand " href="">LOOPAB</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jasmine">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jasmine"
+                aria-controls="jasmine" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div id="jasmine" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#home-section">HOME</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#home-section">HOME</a></li>
                 <li class="nav-item"><a class="nav-link" href="#explore-head-section">EXPLORE</a></li>
                 <li class="nav-item"><a class="nav-link" href="#create-head-section">CREATE</a></li>
                 <li class="nav-item"><a class="nav-link" href="#share-head-section">SHARE</a></li>
@@ -250,10 +253,14 @@
     <span display-4>Developed By: <a href="https://www.tripti.devsoftlab.com" class="text-warning">JASMINE TRIPTI</a> </span><br><br>
     <button class="btn btn-outline bg-primary text-light">Contact Us</button>
 </section>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery-slim.min.js"></script>
-<script src="js/popper.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 </body>
 </html>
